@@ -1,6 +1,7 @@
 # boot-actuator-demo
 
-[![Build Status](https://travis-ci.org/briansjavablog/spring-boot-actuator-demo.svg?branch=master)](https://travis-ci.org/briansjavablog/spring-boot-actuator-demo))
+[![Build Status](https://travis-ci.org/briansjavablog/boot-actuator-demo.svg?branch=master)](https://travis-ci.org/briansjavablog/boot-actuator-demo)
+
 Demo app uses an existing REST API app to demo Spring Boots Actuator endpoints.
 
 ## Running
