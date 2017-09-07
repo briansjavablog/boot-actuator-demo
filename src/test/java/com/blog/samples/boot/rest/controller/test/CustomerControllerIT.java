@@ -57,7 +57,7 @@ public class CustomerControllerIT {
 	@Before
 	public void setUp() throws Exception {
 		this.base = new URL("http://localhost:" + port + "/rest/customers");
-		template = new TestRestTemplate();		
+		template = new TestRestTemplate().withBasicAuth("user", "password");		
 		
 		/* remove and reload test data */
 		customerRepository.deleteAll();		
